@@ -56,7 +56,7 @@ namespace TheCheater
                         max = data.Distance;
                 }
 
-                if (min >= 445 && max <= 475 && max - min < 30) // sac always clicks in a certain range
+                if (min >= 445 && max <= 475 && max - min < 30) // sac always clicks in a certain range, So it will Detect it 100%
                 {
                     _scripting++;
                 }
