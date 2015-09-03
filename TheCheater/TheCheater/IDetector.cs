@@ -8,7 +8,7 @@ using SharpDX;
 
 namespace TheCheater
 {
-    public enum DetectorSetting { Preferred, Safe, AntiHumanizer}
+    public enum DetectorSetting { Preferred, Safe, AntiHumanizer} //Just Menu settings
     interface IDetector
     {
         void Initialize(Obj_AI_Hero hero, DetectorSetting setting = DetectorSetting.Safe);
